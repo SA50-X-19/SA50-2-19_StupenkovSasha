@@ -1,0 +1,37 @@
+body {
+    margin:0
+}
+.box {
+    width: 100px;
+    height: 100px;
+    background-color:white;
+}
+#fullbox1{
+    position: absolute;
+    top: 0px;
+    left:0px;
+    width: 99%;
+    height: 380px;
+    background-color: white;
+    border: dotted  black;
+}
+
+#one{
+    position: relative;
+    top: 20px;
+    left: 120px;
+    border: 1px solid red ;
+}
+#two {
+    position: relative;
+    top: 40px;
+    left: 240px;
+    border: 1px solid blue;
+}
+#three{ 
+    position: relative;
+    top: 60px;
+    left: 360px;
+    border: 1px solid green;
+}
+
