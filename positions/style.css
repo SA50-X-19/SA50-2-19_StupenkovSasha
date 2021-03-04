@@ -14,26 +14,29 @@ body {
     height: 380px;
     background-color: white;
     border: dotted  black;
+    z-index: -2;
 }
 
 #four{
     position: relative;
-    top: 120px;
-    left: 120px;
-    background-color: red;
+    top: 60px;
+    left: 15%;
+    background-color: white;
 }
 #five {
     position: relative;
-    top: 85px;
-    left: 180px;
-    background-color: blue;
-    z-index: 2;
+    top: 120px;
+    left: 75%;
+    background-color: white;
 
 }
 #six{ 
     position: relative;
-    top: 55px;
-    left: 245px;
+    bottom: 170px;
+    left: 5%;
+    width: 90%;
+    height: 320px ;
     background-color: green;
+    z-index: -1;
 }
 
